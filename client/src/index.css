@@ -1,0 +1,78 @@
+body {
+  background: #eee;
+  font-family: 'DankMono-Italic';
+  font-size: 1.3em;
+}
+
+#main h1 {
+  text-align: center;
+  font-size: 2.4em;
+}
+
+.list {
+  text-align: center;
+  padding: 0;
+}
+
+#book-list li {
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid #000;
+  margin: 20px;
+  padding: 3em;
+  display: inline-block;
+}
+
+#book-details p {
+  font-size: 2em;
+}
+.book-detail {
+  border: 1px solid #333;
+  font-size: 15px;
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+#book-details ul {
+  list-style: none;
+}
+
+#add-book {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: 30px;
+  width: 30%;
+  background: #fff;
+}
+
+form .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form label {
+  text-align: center;
+ padding: 6px;
+}
+
+form select, form input {
+  margin: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+form button {
+  color: #fff;
+  font-size: 2em;
+  height: 1.3em;
+  background: #AD1457;
+  border-radius: 60%;
+  cursor: pointer;
+}
